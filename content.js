@@ -19,7 +19,7 @@ function applyUniqueBackgroundColors() {
 
   function getColor(title) {
     const colors = [
-      '#0EA5E9',
+      '#FF0071',
       '#D946EF',
       '#F43F5E',
       '#EAB308',
@@ -81,13 +81,11 @@ function updateButtonContent() {
 // Apply unique background colors after the DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
   applyUniqueBackgroundColors();
-  // updateButtonContent();
 });
 
 // If the page uses a dynamic framework, listen for changes to the DOM and apply unique background colors again
 const observer = new MutationObserver(debounce(() => {
   applyUniqueBackgroundColors();
-  // updateButtonContent();
 }, 500));
 
 observer.observe(document.body, {

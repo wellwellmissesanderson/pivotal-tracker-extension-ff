@@ -1,12 +1,12 @@
 [data-aid="PanelHeader"] {
     background-color: white !important;
-    color: #1F2937 !important;
+    color: #464740 !important;
     border-radius: 10px 10px 0 0 !important;
     border-bottom: 1px solid #8f8f8f !important;
 }
 
 [data-aid="PageHeader"] {
-    background-color: #334155 !important;
+    background-color: #226b75 !important;
 }
 
 [data-aid="VelocityIndicator"] {
@@ -15,6 +15,7 @@
 
 [data-aid="AddButton"] {
     color: #1F2937 !important;
+    background-color: '#FF0071';
 }
 
 [data-aid="IterationMarker"] {
@@ -23,7 +24,8 @@
 }
 
 [data-aid="StoryPreviewItem__preview"] {
-    background-color: white !important;
+    /* background-color: #1b887f !important;
+    color: white !important; */
 }
 
 [data-aid="CommentGutter"] [data-aid="Avatar"] {
@@ -75,6 +77,8 @@ span.StoryPreviewItemButtons__container span.state {
 
 section.project article.main {
     left: 175px !important;
+    /* background-image: url('https://lh6.googleusercontent.com/RmN45tr2-XIVfYkeJdHJ4XI9s_beZkpa9jSC76EhmNCnGkbJSGv8ziDvCvHaI1UjOArCxupfwjO3x_mXP8IVJI1bQeund2gkp2z3tveBUxicmWg6Fj62r7HnLYYr3ba0NBSnmFA_WkocckkV0JYlaRYY=s2048'); */
+    background-image: url('https://lh6.googleusercontent.com/ALAD2mwd3yhP77_1o0q-l7nBRe_w3fgxmlHABt1MUv4g9W6Kbipd-FXIHZrZczTwvHKB817L7y_lZIgzSEAdjxYrmwrVSe9BBHNCl7AbrSuE9gSTqNp-qD-Jp80swY9cpggvHk1keHQw2SQ0aMziqa1o=s2048');
     background-color: #475569;
 }
 

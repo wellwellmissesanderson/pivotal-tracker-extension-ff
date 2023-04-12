@@ -4,14 +4,14 @@
     "version": "1.0",
     "description": "Customize the styling of the Pivotal Tracker dashboard.",
     "icons": {
-      "32": "favicon-32x32.png",
-      "192": "android-chrome-192x192.png"
+      "32": "ff-logo-32x32.png",
+      "192": "ff-logo-192x192.png"
     },
     "permissions": ["activeTab"],
     "action": {
       "default_popup": "popup.html",
       "default_icon": {
-        "32": "favicon-32x32.png"
+        "32": "ff-logo-32x32.png"
       }
     },
     "content_scripts": [
